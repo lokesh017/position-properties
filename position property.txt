@@ -1,0 +1,38 @@
+What is position properties?
+     position property defines the position of an element. this property works with
+top,left,bottom,right offset properties to determine the final position of an
+element.
+
+  There are five types
+     1.static
+     2.relative
+     3.absolute
+     4.fixed
+     5.sticky
+    
+
+1.static
+     By default all html elements are static position, it does not affect document flow.
+
+2.relative
+     a.Relative affect the document flow using top,left,bottom,right offset properties.
+     b.A space is created for them in the document.
+
+
+3.absolute
+   case:1
+     a.Absolute affect the document flow using top,left,bottom,right offset properties.
+     b.A space is not created for them in the document.
+
+   case:2
+     a.Absolute position property used along with the combination of the relative.
+it takes parent as relative container or it will take parent which is non static.
+
+4.fixed
+     a.If you allot one specific location for an element it will fixed in specified location
+and the are not affected by scrolling.
+
+5.sticky
+     a.It acts as relative until a given offset position is reached once reached it will stick
+on it.
+     
